@@ -1,7 +1,7 @@
 import  socket
 
 # Function to scan a single port
-def port_scanner(target, port):
+def uwu_scanner(target, port):
     scanner = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     scanner.settimeout(1)  # Timeout for each connection attempt
     try:
@@ -27,6 +27,6 @@ if __name__ == "__main__":
 
     # Scan each port in the range
     for port in range(start_port, end_port + 1):
-        port_scanner(target, port)
+        uwu_scanner(target, port)
 
     print("\nPort scanning completed.")
